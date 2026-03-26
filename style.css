@@ -34,21 +34,52 @@ body{
 }
 
 main{
-  margin: 30px;
+  margin: 10px;
 }
+.container {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 50px;
+  gap: 5px;
+  text-align: center;
+  
+}
+
+.card{
+  background: #E3F6FF;
+  padding: 15px;
+  border: 1px solid #bdb0db;
+  
+  
+}
+.card img {
+  width: 100%;
+  height: auto;
+  
+}
+
+h6 {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  background: #1b5be7;
+  font-size: 12px;
+  padding: 8px 15px;
+  text-decoration: none;
+  
+  
+}
+
+
 
 main p{
   text-align: justify;
   text-indent: 25px;
 }
 
-main img {
-  display: block;
-  margin: auto;
-  text-align: center;
-  width: 400px;
-  padding: 15px;
-}
 
 footer{
   background-color: #131147;
